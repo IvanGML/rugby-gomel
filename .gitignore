@@ -1,0 +1,19 @@
+/node_modules
+/public/hot
+/public/storage
+/vendor
+/build
+/dist
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+#.env
+# folder for local share files backups
+local-files-backups
+.idea
+.DS_Store
+storage
