@@ -449,7 +449,7 @@ http://www.templatemo.com/tm-473-november
 	.day-row {
 		grid-auto-flow: column;
 		grid-template-columns: 100%;
-		grid-template-rows: repeat(5, 1fr);
+		grid-template-rows: repeat(4, 1fr);
 	}
 
 	.day-item {

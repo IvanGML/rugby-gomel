@@ -1563,7 +1563,7 @@ footer .Cntr a:hover {
 .day-row {
     display: grid;
     grid-auto-flow: row;
-    grid-template-columns: 60px 120px repeat(2, 1fr) 120px;
+    grid-template-columns: 60px 120px repeat(2, 1fr);
     width: 100%;
     justify-content: space-between;
     margin-bottom: 10px;
