@@ -1639,10 +1639,10 @@ footer .Cntr a:hover {
 }
 
 .Map {
-    width: 60%;
+    /*width: 60%;*/
     height: 400px;
-    padding: 0;
-    margin: 0;
+    /*padding: 0;*/
+    /*margin: 0;*/
 }
 
 .map-wrapper {

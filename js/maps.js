@@ -53,10 +53,10 @@ function init () {
 
 const listWrapper = document.querySelector('#map-addresses-list');
 
-listOfPlaces.forEach((place, index) => {
-    const li = document.createElement('li');
-    li.classList.add('map-address');
-    if (index === 0) li.classList.add('active');
-    li.innerText = place.name;
-    listWrapper.appendChild(li);
-})
+// listOfPlaces.forEach((place, index) => {
+//     const li = document.createElement('li');
+//     li.classList.add('map-address');
+//     if (index === 0) li.classList.add('active');
+//     li.innerText = place.name;
+//     listWrapper.appendChild(li);
+// })
