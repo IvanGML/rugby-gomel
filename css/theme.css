@@ -445,7 +445,7 @@ header.smaller .Navigation li {
 
 .Banner_sec .rightside {
     width: 68.36%;
-    float: right;
+    /*float: left;*/
     position: relative;
 }
 
@@ -1248,11 +1248,15 @@ header.smaller .Navigation li {
     max-width: 1100px;
     margin: auto;
     overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
 }
 
 .Get_sec .Leftside {
     width: 48.2%;
-    float: left;
+    /*float: left;*/
 }
 
 .Get_sec .Leftside fieldset {
@@ -1334,7 +1338,14 @@ header.smaller .Navigation li {
 .Get_sec .Rightside {
     padding-top: 12px;
     width: 48.18%;
-    float: right;
+    /*float: right;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.Get_sec .Rightside a {
+    color: white;
+    text-decoration: none;
 }
 
 .Get_sec .Rightside h3 {
@@ -1351,6 +1362,7 @@ header.smaller .Navigation li {
 .Get_sec .Rightside address {
     padding: 0px 0px 27px 65px;
     margin-left: 3px;
+    margin-bottom: 10px;
     font-size: 14px;
     color: #ebedf1;
     font-family: 'Open Sans', sans-serif;
@@ -1392,6 +1404,10 @@ header.smaller .Navigation li {
 
 .Get_sec .Rightside li a {
     text-decoration: none;
+}
+
+.Get_sec .Rightside img {
+    height: 50px;
 }
 
 /* <<< footer >>> */
